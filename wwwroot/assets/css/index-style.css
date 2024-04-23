@@ -190,6 +190,16 @@ header .icons i:hover {
   opacity: 1;
 }
 
+.moviesByCard .card-title {
+  font-size: 32px;
+}
+.moviesByCard .card-text {
+  font-size: 20px;
+}
+.moviesByCard a {
+  font-size: 20px;
+}
+
 /* .TicketingSystem .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -332,9 +342,5 @@ header .icons i:hover {
 
   .heading span {
     font-size: 2.5rem;
-  }
-
-  .contact .row form .inputBox input {
-    width: 100%;
   }
 }

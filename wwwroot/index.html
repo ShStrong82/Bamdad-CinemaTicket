@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./assets/icons/fontawesome/css/all.css" />
 
     <!-- bootstrap link  -->
-    <!-- <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
 
     <!-- Link Swiper's CSS -->
     <link
@@ -34,13 +34,19 @@
       <div id="menu-bar" class="fas fa-bars"></div>
 
       <nav class="navbar">
-        <a href="#home">خانه <i class="fas fa-home"></i></a>
-        <a href="./login.html" id="login-btn"
+        <a class="nav-link" href="#home">خانه <i class="fas fa-home"></i></a>
+        <a class="nav-link" href="./login.html" id="login-btn"
           >ورود | ثبت نام <i class="fas fa-sign-in-alt" id="signin-btn"></i
         ></a>
-        <a href="#MoviesSlides">فیلم ها <i class="fas fa-film-alt"></i></a>
-        <a href="#Tickets">بلیط های من <i class="fas fa-ticket"></i></a>
-        <a href="#about">درباره ما <i class="fas fa-user-headset"></i></a>
+        <a class="nav-link" href="#MoviesSlides"
+          >فیلم ها <i class="fas fa-film-alt"></i
+        ></a>
+        <a class="nav-link" href="#Tickets"
+          >بلیط های من <i class="fas fa-ticket"></i
+        ></a>
+        <a class="nav-link" href="#about"
+          >درباره ما <i class="fas fa-user-headset"></i
+        ></a>
       </nav>
 
       <a href="./index.html" class="logo">
@@ -146,6 +152,86 @@
           </div>
         </div>
         <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- movies slides section ends -->
+
+    <!-- Movies cards section starts -->
+
+    <section class="moviesByCard" id="moviesByCard">
+      <div class="row row-cols-1 row-cols-md-3 g-5">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/img/bodiless_movie.jpg"
+              class="card-img-top"
+              alt="بی بدن"
+            />
+            <div class="card-body">
+              <h5 class="card-title">بی بدن</h5>
+              <p class="card-text">
+                بی بدن نخستین ساخته‌ی مزتضی علیزاده به‌عنوان کارگردان با بازی
+                نوید پورفرج، نویسندگی کاظم دانشی و تهیه‌کنندگی سیدمصطفی احمدی
+                است که در چهل و دومین جشنواره فجر در بخش نگاه نو حضور دارد.
+              </p>
+            </div>
+            <a class="btn btn-primary" href="#">خرید بلیط</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/img/TemsahKhooni_movie.jpeg"
+              class="card-img-top"
+              alt="تمساح خونی"
+            />
+            <div class="card-body">
+              <h5 class="card-title">تمساح خونی</h5>
+              <p class="card-text">
+                تمساح خونی نخستین ساخته‌ی جواد عزتی به‌عنوان کارگردان و به
+                تهیه‌کنندگی کامران حجازی است که در چهل و دومین جشنواره فیلم فجر
+                نیز حضور داشت.
+              </p>
+            </div>
+            <a class="btn btn-primary" href="#">خرید بلیط</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/img/AsemaneGhrarb_movie.jpeg"
+              class="card-img-top"
+              alt="آسمان غرب"
+            />
+            <div class="card-body">
+              <h5 class="card-title">آسمان غرب</h5>
+              <p class="card-text">
+                فیلم آسمان غرب به کارگردانی محمد عسگری و تهیه‌کنندگی حبیب‌الله
+                والی‌نژاد است که در چهل و دومین جشنواره فجر حضور دارد.
+              </p>
+            </div>
+            <a class="btn btn-primary" href="#">خرید بلیط</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./assets/img/SaleGorbe_movie.jpg"
+              class="card-img-top"
+              alt="سال گربه"
+            />
+            <div class="card-body">
+              <h5 class="card-title">سال گربه</h5>
+              <p class="card-text">
+                نمایش سال گربه به کارگردانی مصطفی تقی‌زاده و تهیه‌کنندگی سعید
+                خانی است. بهرام افشاری، سارا بهرامی، هومن برق‌نورد، شبنم قربانی،
+                نوشین تبریزی و رضا رشیدپور بازیگران این فیلم هستند.
+              </p>
+            </div>
+            <a class="btn btn-primary" href="#">خرید بلیط</a>
+          </div>
+        </div>
       </div>
     </section>
 
