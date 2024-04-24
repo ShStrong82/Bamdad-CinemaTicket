@@ -190,14 +190,32 @@ header .icons i:hover {
   opacity: 1;
 }
 
-.moviesByCard .card-title {
-  font-size: 32px;
-}
-.moviesByCard .card-text {
+.moviesByCard {
   font-size: 20px;
 }
-.moviesByCard a {
+.col h5 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.col a {
+  background-color: var(--red);
+  border: none;
   font-size: 20px;
+  margin: auto;
+  margin-bottom: 12px;
+}
+.col a:hover {
+  background-color: #ca1d20;
+}
+.card {
+  border-radius: 10px;
+  border: var(--red) 3px solid;
+}
+.card:hover {
+  box-shadow: 0 0 20px var(--red);
+}
+.card .card-img-top {
+  border-radius: 6px;
 }
 
 /* .TicketingSystem .box-container {
